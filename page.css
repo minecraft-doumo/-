@@ -1,0 +1,71 @@
+body{
+  background-color: dimgray;
+  text-align: center;
+  cursor: pointer;
+}
+
+#theme{
+  color: white;
+  border-color: silver;
+  border-radius: 10px;
+  border: solid;
+  box-shadow: 10px 5px 5px black;
+}
+
+h1:hover{
+  opacity: 0.7;
+}
+
+h2{
+  color: lavender;
+}
+
+details {
+  color: white;
+  cursor: pointer;
+  border: solid;
+  border-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin:10px;
+  box-shadow: 10px 5px 5px black;
+}
+
+details ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  opacity: 0.7;
+}
+
+h1{
+  color: white;
+  padding: 10px;
+  border: 10px solid;
+  border-color: dimgray dimgray dimgray white;
+}
+
+h3{
+  color: lavender;
+}
+
+h4{
+  color: white;
+}
+
+#img1{
+  position: fixed;
+  right: 1%;
+  bottom: 10%;
+  z-index: 100;
+}
+
+#img1:hover{
+  opacity: 0.8;
+}
